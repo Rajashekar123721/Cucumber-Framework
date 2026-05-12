@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: CucumberOptions.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 37.60 s <<< FAILURE! -- in CucumberOptions.TestNGTestRunner
+CucumberOptions.TestNGTestRunner.runScenario["Search Experiance for product searchin both home and offers page", "Search and Place the order for Products"](3) -- Time elapsed: 10.66 s <<< FAILURE!
+java.lang.AssertionError: Both are not same expected [No data] but found [Beetroot]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at stepDefinitions.OffersPageStepDefinition.verify_both_the_names_that_we_get_same_or_not(OffersPageStepDefinition.java:46)
+	at ✽.Verify both the names that we get same or not(file:///C:/Users/graja/eclipse-workspace/CucumberFramework/src/test/java/features/searchProduct.feature:8)
+
